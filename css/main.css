@@ -3,7 +3,9 @@
     --primary-light: #CCB685;
     --bs-body-bg: #F5F5F5;
     --bs-body-font-family:'lato', sans-serif;
-    --text-large: 40px;
+
+    --text-xlarge: 40px;
+    --text-large: 22px;
     --text-medium: 18px;
     --text-small: 13px;
 
@@ -188,7 +190,7 @@ body{
 
 .text-hero-bold{
     color: white;
-    font-size: var(--text-large);
+    font-size: var(--text-xlarge);
     font-weight: var(--font-bold);
 }
 
@@ -294,7 +296,7 @@ body{
 }
 .ser-title{
     color: var(--primary);
-    font-size: var(--text-large);
+    font-size: var(--text-xlarge);
     font-weight: var(--font-bold);
     text-align: center;
     padding-bottom: 90px;
@@ -337,7 +339,7 @@ body{
 }
 .intro-text{
     color: var(--primary-light);
-    font-size: var(--text-large);
+    font-size: var(--text-xlarge);
     font-weight: var(--font-sembold);
     line-height: 31px;
 }
@@ -365,4 +367,15 @@ body{
 .btn-primary-book:hover{
     background-color: #ecce8e !important;
     border: none;
+}
+
+
+/* 
+* Footer Section
+*/
+.footer_intro{
+    color: var(--primary-light);
+    font-size: var(--text-large);
+    font-weight: var(--font-sembold);
+    line-height: 31px
 }
